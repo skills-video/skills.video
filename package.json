@@ -1,0 +1,27 @@
+{
+  "name": "skills.video",
+  "version": "1.0.0",
+  "description": "视频技能库 - 发现和學習各类视频处理、编辑、生成技能",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python3 -m http.server 8000",
+    "build": "echo 'Static site - no build step required'",
+    "deploy": "./deploy.sh",
+    "clean": "rm -rf dist/"
+  },
+  "keywords": [
+    "video",
+    "skills",
+    "tutorial",
+    "ffmpeg",
+    "video-editing",
+    "ai-video"
+  ],
+  "author": "Skills.Video Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skills-video/skills.video.git"
+  },
+  "homepage": "https://skills.video"
+}
